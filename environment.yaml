@@ -1,0 +1,17 @@
+name: PARCELS
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - cartopy
+  - cftime
+  - folium
+  - geopandas
+  - jupyter
+  - parcels
+  - matplotlib-base
+  - netcdf4
+  - numpy
+  - pandas
+  - shapely
+  - xarray
