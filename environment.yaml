@@ -4,14 +4,19 @@ channels:
 dependencies:
   - python=3
   - cartopy
+  - cf_xarray
   - cftime
+  - dask
   - folium
   - geopandas
   - jupyter
-  - parcels
   - matplotlib-base
   - netcdf4
   - numpy
   - pandas
+  - parcels
+  - pooch
   - shapely
+  - tqdm
   - xarray
+  - xmovie
