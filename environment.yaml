@@ -9,8 +9,10 @@ dependencies:
   - dask
   - folium
   - geopandas
+  - humanize
   - jupyter
   - matplotlib-base
+  - nco
   - netcdf4
   - numpy
   - pandas
