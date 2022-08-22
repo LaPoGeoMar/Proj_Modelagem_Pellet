@@ -8,9 +8,7 @@ dependencies:
   - cftime
   - dask
   - folium
-  - folium
   - geopandas
-  - humanize
   - humanize
   - jupyter
   - matplotlib-base
