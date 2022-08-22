@@ -8,7 +8,9 @@ dependencies:
   - cftime
   - dask
   - folium
+  - folium
   - geopandas
+  - humanize
   - humanize
   - jupyter
   - matplotlib-base
@@ -20,5 +22,6 @@ dependencies:
   - pooch
   - shapely
   - tqdm
+  - utide
   - xarray
   - xmovie
