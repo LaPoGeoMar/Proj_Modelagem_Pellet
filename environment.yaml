@@ -15,6 +15,7 @@ dependencies:
   - nco
   - netcdf4
   - numpy
+  - openpyxl
   - pandas
   - parcels
   - pooch
