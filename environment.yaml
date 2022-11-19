@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3
-  - cartopy
+  - cartopy >=0.21
   - cf_xarray
   - cftime
   - dask
@@ -15,6 +15,7 @@ dependencies:
   - nco
   - netcdf4
   - numpy
+  - openpyxl
   - pandas
   - parcels
   - pooch
@@ -23,3 +24,4 @@ dependencies:
   - utide
   - xarray
   - xmovie
+  - xoak

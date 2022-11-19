@@ -8,7 +8,7 @@ variables = [
     # "grid_longitude",
     # "grid_latitude",
     #     "k",
-    #     "grid_depth",
+    # "grid_depth",
     # "depth",
     #     "zactive",
     #     "area",
@@ -35,8 +35,8 @@ def subset_ds(fname):
     # We will store only the surface and trim a bit on the western boundary.
     subset = (
         ds[variables]
-        .sel(m=slice(-49, -47.5))  # Cut some of the western part of the domain
-        .isel({"Layer": 0})  # just the surface
+        # .sel(m=slice(-49, -47.5))  # Cut some of the western part of the domain
+        # .isel({"Layer": 0})  # just the surface
     )
     print(f"\nSubsetting {fname.name}")
     print(f"Original size: {humanize.naturalsize(ds.nbytes)}")
@@ -46,6 +46,7 @@ def subset_ds(fname):
     subset.close()
 
 
-path = Path(".").absolute()
-for fname in path.glob("*.nc4"):
-    subset_ds(fname)
+if __name__ == "__main__":
+    path = Path(".").absolute()
+    for fname in path.glob("*.nc4"):
+        subset_ds(fname)
