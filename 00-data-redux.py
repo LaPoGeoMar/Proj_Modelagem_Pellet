@@ -35,8 +35,8 @@ def subset_ds(fname):
     # We will store only the surface and trim a bit on the western boundary.
     subset = (
         ds[variables]
-        # .sel(m=slice(-49, -47.5))  # Cut some of the western part of the domain
-        # .isel({"Layer": 0})  # just the surface
+        .sel(m=slice(-49, -47.5))  # Cut some of the western part of the domain
+        .isel({"Layer": 0})  # just the surface
     )
     print(f"\nSubsetting {fname.name}")
     print(f"Original size: {humanize.naturalsize(ds.nbytes)}")
