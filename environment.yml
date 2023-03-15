@@ -2,7 +2,7 @@ name: PARCELS
 channels:
   - conda-forge
 dependencies:
-  - python=3
+  - python=3.11
   - cartopy >=0.21
   - cf_xarray
   - cftime
@@ -19,6 +19,7 @@ dependencies:
   - pandas
   - parcels
   - pooch
+  - pyogrio
   - shapely
   - tqdm
   - utide
