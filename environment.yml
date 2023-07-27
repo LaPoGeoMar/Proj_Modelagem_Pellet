@@ -15,6 +15,7 @@ dependencies:
   - matplotlib-base
   - mpi4py
   - mpich
+  - nbclassic
   - nco
   - netcdf4
   - numpy
