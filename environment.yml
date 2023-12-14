@@ -27,6 +27,7 @@ dependencies:
   - scikit-learn
   - shapely
   - tqdm
+  - trajan
   - utide
   - xarray
   - xmovie
