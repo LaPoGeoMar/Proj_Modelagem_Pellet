@@ -2,7 +2,7 @@ name: PARCELS
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.12
   - cartopy >=0.21
   - cf_xarray
   - cftime
@@ -27,7 +27,10 @@ dependencies:
   - scikit-learn
   - shapely
   - tqdm
+  - trajan
   - utide
   - xarray
   - xmovie
   - xoak
+platforms:
+  - linux-64

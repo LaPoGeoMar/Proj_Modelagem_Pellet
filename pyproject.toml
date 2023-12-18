@@ -4,5 +4,5 @@ select = [
     "I", # import sorting
     "U", # upgrade
 ]
-target-version = "py311"
+target-version = "py312"
 line-length = 80
