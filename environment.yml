@@ -6,6 +6,7 @@ dependencies:
   - cartopy >=0.21
   - cf_xarray
   - cftime
+  - contextily
   - dask
   - ffmpeg
   - folium
@@ -25,6 +26,7 @@ dependencies:
   - pooch
   - pyogrio
   - scikit-learn
+  - seaborn
   - shapely
   - tqdm
   - trajan
