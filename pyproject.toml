@@ -1,5 +1,5 @@
 [tool.ruff]
-select = [
+lint.select = [
     "F", # flakes
     "I", # import sorting
     "U", # upgrade

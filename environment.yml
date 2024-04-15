@@ -22,7 +22,7 @@ dependencies:
   - numpy
   - openpyxl
   - pandas
-  - parcels
+  - parcels<3
   - pooch
   - pyogrio
   - scikit-learn
